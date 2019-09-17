@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Es el servidor de la plicacion administrativa de la inmbiliaria Los Lanceros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "keywords": [
+    "back",
+    "server",
+    "inmobiliaria",
+    "servidor",
+    "lanceros",
+    "tunja"
+  ],
+  "author": "Seta2i",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.4",
+    "express-list-endpoints": "^4.0.1",
+    "express-session": "^1.16.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1",
+    "officegen": "^0.6.0",
+    "req-flash": "0.0.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
